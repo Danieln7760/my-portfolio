@@ -4,7 +4,7 @@ import { Mail, Github, Linkedin, Code2, Router, ShieldCheck } from "lucide-react
 
 export default function PortfolioHome() {
   return (
-    <main className="p-6 max-w-5xl mx-auto animate-fade-in">
+    <main className="p-6 max-w-5xl mx-auto animate-fade-in bg-gradient-to-b from-white via-slate-100 to-slate-200 dark:from-[#0c0c0c] dark:via-[#111827] dark:to-[#1f2937]">
       <section className="text-center mb-10">
         <h1 className="text-4xl font-bold mb-2 text-primary">Hi, I&#39;m Daniel Nkemdirim</h1>
         <p className="text-lg text-muted-foreground">
@@ -20,7 +20,7 @@ export default function PortfolioHome() {
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2"><Code2 /> About Me</h2>
         <p>
-          I&#39;m a Network Technology student at Carleton University with hands-on experience in several programming languages including Python, JavaScript, and C, as well as practical expertise configuring Cisco switches and routers. I have strong proficiency in routing and switching protocols and a solid foundation in cybersecurity principles. My strengths include critical thinking, problem-solving, and a passion for building scalable, secure network infrastructures and embedded systems.
+          I&#39;m a Network Technology student at Carleton University with hands-on experience in several programming languages including Python, JavaScript, Css, and C, as well as practical expertise configuring Cisco switches and routers. I have strong proficiency in routing and switching protocols and a solid foundation in cybersecurity principles. My strengths include critical thinking, problem-solving, and a passion for building scalable, secure network infrastructures and embedded systems.
         </p>
       </section>
 
