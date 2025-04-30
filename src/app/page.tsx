@@ -1,32 +1,31 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Mail, Github, Linkedin } from "lucide-react"
+import { Mail, Github, Linkedin, Code2, Router, ShieldCheck } from "lucide-react"
 
 export default function PortfolioHome() {
   return (
-    <main className="p-6 max-w-5xl mx-auto">
+    <main className="p-6 max-w-5xl mx-auto animate-fade-in">
       <section className="text-center mb-10">
-        <h1 className="text-4xl font-bold mb-2">Hi, I&#39;m Daniel Nkemdirim</h1>
+        <h1 className="text-4xl font-bold mb-2 text-primary">Hi, I&#39;m Daniel nkemdirim</h1>
         <p className="text-lg text-muted-foreground">
-          Network Engineer | Cybersecurity | Embedded Systems
+          Network Engineer | Cybersecurity | Web developer
         </p>
         <div className="flex justify-center gap-4 mt-4">
-          <a href="mailto:you@example.com"><Mail /></a>
-          <a href="https://github.com/danieln7760" target="_blank"><Github /></a>
-          <a href="https://linkedin.com/in/daniel-nkemdirim-180846170/" target="_blank"><Linkedin /></a>
+          <a href="mailto:nkemchisom727@gmail.com"><Mail className="hover:text-primary transition" /></a>
+          <a href="https://github.com/danieln7760" target="_blank"><Github className="hover:text-primary transition" /></a>
+          <a href="https://linkedin.com/in/danielnkemdirim/" target="_blank"><Linkedin className="hover:text-primary transition" /></a>
         </div>
       </section>
 
       <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-4">About Me</h2>
+        <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2"><Code2 /> About Me</h2>
         <p>
-          I&#39;m a Network Technology student at Carleton University with hands-on experience in Proxmox, Zabbix, and 5G security architecture. 
-          I am passionate about solving real-world tech problems with practical solutions in cybersecurity and embedded development.
+          I&#39;m a Network Technology student at Carleton University with hands-on experience in several programming languages including Python, JavaScript, and C, as well as practical expertise configuring Cisco switches and routers. I have strong proficiency in routing and switching protocols and a solid foundation in cybersecurity principles. My strengths include critical thinking, problem-solving, and a passion for building scalable, secure network infrastructures and embedded systems.
         </p>
       </section>
 
       <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-4">Certifications</h2>
+        <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2"><ShieldCheck /> Certifications</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Card>
             <CardContent className="p-4">
@@ -44,7 +43,7 @@ export default function PortfolioHome() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-4">Projects</h2>
+        <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2"><Router /> Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Card>
             <CardContent className="p-4">
