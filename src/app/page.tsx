@@ -66,13 +66,25 @@ export default function PortfolioHome() {
           <Card>
             <CardContent className="p-4">
               <h3 className="font-bold">Proxmox Advanced Homelab</h3>
-              <p>Built and monitored a secure Proxmox homelab cluster using Zabbix, VPN, and remote access.</p>
+              <p>Built and managed a secure three-node Proxmox cluster hosting services like WireGuard VPN, AdGuard, Zabbix monitoring, Plex, Nginx, WordPress, and Seafile. Implemented automatic backups, dynamic DNS, and VM live migration for high availability and resilience in a home lab environment.</p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4">
-              <h3 className="font-bold">5G Security Architecture</h3>
-              <p>Designed a zero-trust network slicing architecture to enhance 5G infrastructure resilience.</p>
+              <h3 className="font-bold">Machine Learning Intrusion Detection</h3>
+              <p>Developed an IDS using a machine learning model with adversarial robustness tools to detect and defend against evolving cyber threats.</p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="p-4">
+              <h3 className="font-bold">GoodStreams Web App</h3>
+              <p>Built a JavaScript and PHP-based site enabling users to curate and manage personalized lists of movies and shows.</p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="p-4">
+              <h3 className="font-bold">Pac-Man Reinvented Game</h3>
+              <p>Designed a Python game that reimagines Pac-Man using Pygame, enhancing gameplay with custom rules and levels.</p>
             </CardContent>
           </Card>
         </div>
@@ -81,7 +93,7 @@ export default function PortfolioHome() {
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-4">Resume</h2>
         <Button asChild>
-          <a href="/resume.pdf" target="_blank">Download Resume</a>
+          <a href="/daniel-nkemdirim-resume.pdf" target="_blank">Download Resume</a>
         </Button>
       </section>
     </main>
