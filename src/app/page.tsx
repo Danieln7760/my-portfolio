@@ -6,23 +6,22 @@ export default function PortfolioHome() {
   return (
     <main className="p-6 max-w-5xl mx-auto">
       <section className="text-center mb-10">
-        {/* eslint-disable-next-line react/no-unescaped-entities */}
-        <h1 className="text-4xl font-bold mb-2">Hi, Im Daniel nkemdirim</h1>
+        <h1 className="text-4xl font-bold mb-2">Hi, I&#39;m Daniel Nkemdirim</h1>
         <p className="text-lg text-muted-foreground">
           Network Engineer | Cybersecurity | Embedded Systems
         </p>
         <div className="flex justify-center gap-4 mt-4">
           <a href="mailto:you@example.com"><Mail /></a>
-          <a href="https://github.com/Danieln7760" target="_blank"><Github /></a>
-          <a href="https://linkedin.com/in/daniel-nkemdirim-180846170" target="_blank"><Linkedin /></a>
+          <a href="https://github.com/danieln7760" target="_blank"><Github /></a>
+          <a href="https://linkedin.com/in/daniel-nkemdirim-180846170/" target="_blank"><Linkedin /></a>
         </div>
       </section>
 
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
-        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <p>
-          Im a Network Technology student at Carleton University with hands-on experience in Proxmox, Zabbix, and 5G security architecture. I’m passionate about solving real-world tech problems with practical solutions in cybersecurity and embedded development.
+          I&#39;m a Network Technology student at Carleton University with hands-on experience in Proxmox, Zabbix, and 5G security architecture. 
+          I am passionate about solving real-world tech problems with practical solutions in cybersecurity and embedded development.
         </p>
       </section>
 
