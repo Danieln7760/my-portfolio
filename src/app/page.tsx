@@ -6,9 +6,9 @@ export default function PortfolioHome() {
   return (
     <main className="p-6 max-w-5xl mx-auto animate-fade-in">
       <section className="text-center mb-10">
-        <h1 className="text-4xl font-bold mb-2 text-primary">Hi, I&#39;m Daniel nkemdirim</h1>
+        <h1 className="text-4xl font-bold mb-2 text-primary">Hi, I&#39;m Daniel Nkemdirim</h1>
         <p className="text-lg text-muted-foreground">
-          Network Engineer | Cybersecurity | Web developer
+          Network Engineer | Cybersecurity | Web Developer
         </p>
         <div className="flex justify-center gap-4 mt-4">
           <a href="mailto:nkemchisom727@gmail.com"><Mail className="hover:text-primary transition" /></a>
