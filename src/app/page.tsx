@@ -7,7 +7,7 @@ export default function PortfolioHome() {
     <main className="p-6 max-w-5xl mx-auto">
       <section className="text-center mb-10">
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        <h1 className="text-4xl font-bold mb-2">Hi, I'm Daniel nkemdirim</h1>
+        <h1 className="text-4xl font-bold mb-2">Hi, Im Daniel nkemdirim</h1>
         <p className="text-lg text-muted-foreground">
           Network Engineer | Cybersecurity | Embedded Systems
         </p>
@@ -22,7 +22,7 @@ export default function PortfolioHome() {
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
         {/* eslint-disable-next-line react/no-unescaped-entities */}
         <p>
-          I'm a Network Technology student at Carleton University with hands-on experience in Proxmox, Zabbix, and 5G security architecture. I’m passionate about solving real-world tech problems with practical solutions in cybersecurity and embedded development.
+          Im a Network Technology student at Carleton University with hands-on experience in Proxmox, Zabbix, and 5G security architecture. I’m passionate about solving real-world tech problems with practical solutions in cybersecurity and embedded development.
         </p>
       </section>
 
