@@ -1,6 +1,23 @@
+"use client"
+
+import { useTheme } from "next-themes"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Mail, Github, Linkedin, Code2, Router, ShieldCheck } from "lucide-react"
+import { Mail, Github, Linkedin, Code2, Router, ShieldCheck, Moon, Sun } from "lucide-react"
+
+function ThemeToggle() {
+  const { theme, setTheme } = useTheme()
+
+  return (
+    <button
+      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+      className="ml-4 p-2 rounded-full border border-muted-foreground hover:bg-muted transition"
+      aria-label="Toggle theme"
+    >
+      {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+    </button>
+  )
+}
 
 export default function PortfolioHome() {
   return (
@@ -14,13 +31,14 @@ export default function PortfolioHome() {
           <a href="mailto:nkemchisom727@gmail.com"><Mail className="hover:text-primary transition" /></a>
           <a href="https://github.com/danieln7760" target="_blank"><Github className="hover:text-primary transition" /></a>
           <a href="https://linkedin.com/in/danielnkemdirim/" target="_blank"><Linkedin className="hover:text-primary transition" /></a>
+          <ThemeToggle />
         </div>
       </section>
 
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2"><Code2 /> About Me</h2>
         <p>
-          I&#39;m a Network Technology student at Carleton University with hands-on experience in several programming languages including Python, JavaScript, Css, and C, as well as practical expertise configuring Cisco switches and routers. I have strong proficiency in routing and switching protocols and a solid foundation in cybersecurity principles. My strengths include critical thinking, problem-solving, and a passion for building scalable, secure network infrastructures and embedded systems.
+          I&#39;m a Network Technology student at Carleton University with hands-on experience in several programming languages including Python, JavaScript, and C, as well as practical expertise configuring Cisco switches and routers. I have strong proficiency in routing and switching protocols and a solid foundation in cybersecurity principles. My strengths include critical thinking, problem-solving, and a passion for building scalable, secure network infrastructures and embedded systems.
         </p>
       </section>
 
