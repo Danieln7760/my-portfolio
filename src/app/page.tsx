@@ -93,7 +93,7 @@ export default function PortfolioHome() {
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-4">Resume</h2>
         <Button asChild>
-          <a href="/daniel-nkemdirim-resume.pdf" target="_blank">Download Resume</a>
+          <a href="/public/danielnkemdirim_resume.pdf" target="_blank">Download Resume</a>
         </Button>
       </section>
     </main>
