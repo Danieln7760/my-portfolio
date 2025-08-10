@@ -45,18 +45,22 @@ export default function PortfolioHome() {
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2"><ShieldCheck /> Certifications</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
           <Card>
             <CardContent className="p-4">
               <h3 className="font-bold">Cisco CCNA</h3>
               <p>Issued by Cisco - April 2024</p>
             </CardContent>
           </Card>
+          </a>
+          <a href="/NRS I32795.pdf" target="_blank" rel="noopener noreferrer">
           <Card>
             <CardContent className="p-4">
-              <h3 className="font-bold">CompTIA Security+</h3>
-              <p>Issued by CompTIA - Dec 2023</p>
+              <h3 className="font-bold">Nokia NSR I</h3>
+              <p>Issued by Nokia - August 2025</p>
             </CardContent>
           </Card>
+          </a>
         </div>
       </section>
 
@@ -92,9 +96,11 @@ export default function PortfolioHome() {
 
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-4">Resume</h2>
+        <a href="/danielnkemdirim_resume.pdf" target="_blank">
         <Button asChild>
-          <a href="/public/danielnkemdirim_resume.pdf" target="_blank">Download Resume</a>
+          <p>Download Resume</p>
         </Button>
+        </a>
       </section>
     </main>
   )
