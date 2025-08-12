@@ -53,7 +53,7 @@ export default function PortfolioHome() {
             </CardContent>
           </Card>
           </a>
-          <a href="/NRS I32795.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/NRS_I32795.pdf" target="_blank" rel="noopener noreferrer">
           <Card>
             <CardContent className="p-4">
               <h3 className="font-bold">Nokia NSR I</h3>
